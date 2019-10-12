@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8" />
+  <title>Name Gender Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+  /*background-image: url("https://webdesignerdepot.s3.amazonaws.com/default-images/26.jpg");*/
+  background-image: url("https://images.unsplash.com/photo-1545693315-85b6be26a3d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-size: 2400px 800px;*/
+  background-size: 1300px 850px;
+}
+
+h1 {
+  text-align: center;
+  color:white;
+}
+
+h2 {
+  text-align: center;
+  color:white;
+}
+
+form {
+  text-align: center; 
+  color: white;
+}
+
+p {
+  text-align: center; 
+  color: white;
+}
+
+div {
+  text-align: center; 
+  color: white;
+}
+
+hr {
+  color: black;
+}
+</style>
+
+<body>
+  
+  <br>
+
+  <h1>Name Gender Calculator</h1>
+  
+  <br>
+  <br>
+  <br>
+  
+  <hr>
+  
+  <p>The Name Gender Calculator presents the the most probable gender of a person on earth with a specific name. To check the gender of a name, enter the name in the box below.</p>
+
+  <form>
+    <label>Enter a name to calculate gender</label>
+    <input id="weatherInput" type="text"></input><br/>
+    <input id="weatherSubmit" type="submit" value="Submit"></input>
+  </form>
+  <div id="weatherResults">
+  </div>
+  
+  <hr>
+  
+  <!--<h2>Forecast Every Three Hours for the Next Five Days</h2>-->
+  
+  <div id="forecastResults">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>
